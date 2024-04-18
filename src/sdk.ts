@@ -1,14 +1,14 @@
 import { faker } from "@faker-js/faker";
 import { EventEmitter } from "events";
 
-const MAX_INTERVAL = 10_000;
+const MAX_INTERVAL = 7_000;
 
 const users = [
   "Alice",
   "Bob",
   "Charlie",
   "David",
-  // 'Eve',
+  //   "Eve",
   // 'Frank',
   // 'Grace',
   // 'Heidi',
