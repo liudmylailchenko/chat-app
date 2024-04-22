@@ -1,6 +1,5 @@
 import React from 'react'
 
-import { Input } from "./components/Input";
 import sdk from "./sdk";
 
 import styled from "@emotion/styled";
@@ -33,7 +32,7 @@ interface Message {
 
 export function App() {
   // sdk.subscribe('typing', (data: Typing) => {})
-  return <Input />;
+  return <div></div>;
 }
 
 export default App;
